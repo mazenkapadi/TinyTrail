@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinyTrail - URL Shortener</title>
+    <link rel="stylesheet" href="../../static/styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>TinyTrail</h1>
+    <p class="subtitle">Simplify your URLs effortlessly.</p>
+    <label for="longUrl" ></label ><input type="text" id="longUrl" placeholder="Enter your long URL" />
+    <h3>Link Validity</h3>
+    <div class="button-group">
+        <button onclick="shorten(1)">24 hours, single access</button>
+        <button onclick="shorten(2)">7 days</button>
+        <button onclick="shorten(3)">Forever</button>
+    </div>
+    <p id="result"></p>
+</div>
+<script src="/script.js"></script>
+</body>
+</html>

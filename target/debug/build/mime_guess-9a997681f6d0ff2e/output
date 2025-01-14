@@ -1,0 +1,1 @@
+cargo:rustc-env=MIME_TYPES_GENERATED_PATH=/Users/mazenkapadi/TinyTrail/target/debug/build/mime_guess-9a997681f6d0ff2e/out/mime_types_generated.rs

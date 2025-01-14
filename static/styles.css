@@ -1,0 +1,93 @@
+/* Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace; /* Monochrome-friendly font */
+    background-color: #000000; /* Absolute black */
+    color: #ffffff; /* Absolute white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 2em;
+    background-color: #111111; /* Slightly lighter black for contrast */
+    border-radius: 8px;
+    border: 1px solid #333333; /* Subtle border for definition */
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); /* Light white shadow */
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #cccccc; /* Soft white for subtlety */
+    margin-bottom: 1.5em;
+}
+
+input {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border: 1px solid #444444; /* Gray border for input */
+    border-radius: 6px;
+    background-color: #000000; /* Matches the overall background */
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+input::placeholder {
+    color: #666666; /* Lighter gray for placeholders */
+}
+
+input:focus {
+    outline: 2px solid #ffffff; /* White outline on focus */
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+button {
+    padding: 0.8em;
+    border: 1px solid #444444;
+    border-radius: 6px;
+    background-color: #222222; /* Slightly lighter black */
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #333333;
+    transform: scale(1.02);
+}
+
+button:active {
+    background-color: #555555; /* Even lighter when active */
+    transform: scale(0.98); /* Slight compression */
+}
+
+#result {
+    margin-top: 1.5em;
+    font-size: 1rem;
+    color: #ffffff; /* Ensure results are readable */
+    word-wrap: break-word;
+}
