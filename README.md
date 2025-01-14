@@ -22,14 +22,6 @@
 
 ---
 
-## 🖥️ Preview of the UI
-
-Here’s a preview of the **TinyTrail** interface:
-
-![UI Preview](https://via.placeholder.com/800x400.png?text=TinyTrail+UI+Preview)
-
----
-
 ## 🚀 How It Works
 
 1. **URL Shortening**:
