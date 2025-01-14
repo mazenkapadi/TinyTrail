@@ -12,6 +12,7 @@ dependencies = [
  "firestore-db-and-auth",
  "serde",
  "serde_json",
+ "tokio",
  "uuid",
 ]
 

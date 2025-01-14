@@ -40,12 +40,13 @@ h1 {
 }
 
 input {
-    width: 100%;
+    display: block; /* Ensures it behaves like a block-level element */
+    margin: 0 auto 1em auto; /* Center aligns with auto margins */
+    width: calc(100% - 1.6em); /* Adjust width to respect container padding */
     padding: 0.8em;
-    margin-bottom: 1em;
-    border: 1px solid #444444; /* Gray border for input */
+    border: 1px solid #444444;
     border-radius: 6px;
-    background-color: #000000; /* Matches the overall background */
+    background-color: #000000;
     color: #ffffff;
     font-size: 1rem;
 }
